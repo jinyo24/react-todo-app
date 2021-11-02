@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 
 function Todo({todo, index, remove}) {
     function handle() {

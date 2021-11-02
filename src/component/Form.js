@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 
 function TodoForm({addToDo}) {
     const [value, setValue] = React.useState('');

@@ -16,8 +16,6 @@ function App() {
     setTodos(newTodos);
   };
 
-
-
   const removeTodo = index => {
     let temp = [...todos];
     temp.splice(index, 1);
